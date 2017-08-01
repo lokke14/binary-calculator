@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="binary.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Montserrat:300" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <title>Binary calculator</title>
+    </head>
+    <body>
+
+
+    <h1>Binary Calculator</h1>
+
+    <p>A 32bits binary calculator. Max decimal input is 2147483647</p>
+    <div class="input1">
+        <label for="numberinput1">A</label>
+    <input type="number" id="numberinput1" value="">
+
+    </div>
+
+    <div class="input2">
+    <label for="numberinput2">B</label>
+    <input type="number" id="numberinput2" value="">
+
+
+
+    </div>
+    <div class="C">
+    <span id="clearC">C</span>    <span id="totalC"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" name="AND">AND</button>
+        <button type="button" name="XOR">XOR</button>
+        <button type="button" name="OR">OR</button>
+    </div>
+
+    <div class="result">
+        <div class="A">
+           <span id="binary1"></span>
+        </div>
+        <div class="B">
+           <span id="binary2"></span>
+        </div>
+    <div class="total">
+        <span id="total"></span>
+    </div>
+    </div>
+
+    <div class="explanation">
+        <table>
+
+        <tr>
+            <th>Operator</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>OR</td>
+            <td>Returns a one in each bit position for which the corresponding bits of either or both operands are ones.</td>
+        </tr>
+        <tr>
+            <td>XOR</td>
+            <td>Returns a one in each bit position for which the corresponding bits of either but not both operands are ones.</td>
+        </tr>
+        <tr>
+            <td>AND</td>
+            <td>Returns a one in each bit position for which the corresponding bits of both operands are ones.</td>
+        </tr>
+        </table>
+    </div>
+    <script type="text/javascript" src="binary.js"></script>
+    </body>
+</html>

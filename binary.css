@@ -1,0 +1,92 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+h1 {
+    font-family: 'Droid Sans Mono', monospace;
+    text-align: center;
+    margin: 40px 0 20px 0;
+}
+
+p {
+    text-align: center;
+}
+
+button {
+    height: 100%;
+    width: 50px;
+    border: 0;
+    margin: 5px 5px;
+    font-weight: bold;
+}
+
+.buttons {
+    text-align: center;
+}
+
+input[type='number'] {
+    border: 1px solid rgba(179,179,179, .6);
+    width: 90%;
+    margin: 10px;
+    font-size: 14px;
+    -moz-appearance:textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+tr th {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+td:first-child {
+    width: 110px;
+    text-align: center;
+}
+
+
+div {
+    width: 460px;
+    margin: auto;
+}
+
+.result {
+    font-size: 20px;
+}
+
+.A, .B,  .total {
+    width: 405px;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 0 0 0 15px;
+    font-size: 20px;
+    line-height: 1.5;
+    border: 1px solid rgba(179,179,179, .6);
+}
+
+.C {
+    height: 40px;
+    padding: 0 20px;
+
+}
+
+#clearC {
+    line-height: 40px;
+    margin-right: 13px;
+}
+
+#totalC {
+
+    line-height: 40px;
+}
+
+
+.warning {
+    border: red 1px solid;
+}
